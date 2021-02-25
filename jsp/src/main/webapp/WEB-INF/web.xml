@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>EmpList</servlet-name>
+  	<display-name>EmpList</display-name>
+  	<description></description>
+  	<servlet-class>emp.serv.EmpList</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmpInsert</servlet-name>
+  	<display-name>EmpInsert</display-name>
+  	<description></description>
+  	<servlet-class>emp.serv.EmpInsert</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmpSearch</servlet-name>
+  	<display-name>EmpSearch</display-name>
+  	<description></description>
+  	<servlet-class>emp.serv.EmpSearch</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmailCheck</servlet-name>
+  	<display-name>EmailCheck</display-name>
+  	<description></description>
+  	<servlet-class>emp.serv.EmailCheck</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmpUpdate</servlet-name>
+  	<display-name>EmpUpdate</display-name>
+  	<description></description>
+  	<servlet-class>emp.serv.EmpUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EmpList</servlet-name>
+  	<url-pattern>/EmpList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmpInsert</servlet-name>
+  	<url-pattern>/EmpInsert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmpSearch</servlet-name>
+  	<url-pattern>/EmpSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmailCheck</servlet-name>
+  	<url-pattern>/EmailCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmpUpdate</servlet-name>
+  	<url-pattern>/EmpUpdate</url-pattern>
+  </servlet-mapping>
+</web-app>
